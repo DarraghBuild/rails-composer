@@ -1639,7 +1639,7 @@ TEXT
 
   if prefer :deployment, 'heroku'
     append_to_file 'README.md' do <<-TEXT
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Build.io](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 TEXT
     end
